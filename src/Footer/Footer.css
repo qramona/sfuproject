@@ -1,0 +1,96 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    margin: 0;
+    max-width: 1600px;
+    width: 100%;
+    display: contents;
+}
+.footer{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+    border-top: solid 1px black;
+}
+footer>.container{
+    margin: 0;
+    padding: 0;
+}
+.footer h1{
+    font-family: 'Inter';
+    font-size:20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color:black;
+}
+.footer__School p,.footer__Science p,.footer__about__center p {
+    font-family: 'Inter';
+    font-size:14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #ADADAD;
+}
+footer p:hover{
+     color:#00A174;
+     text-decoration:none;
+ }
+.footer__media{
+    padding: 0;
+    margin: 1rem 0;
+}
+.footer__media a{
+    font-family: 'Inter';
+    font-size:14px;
+    Font-weight:200;
+    Line-height:22px;
+    padding: 2px;
+    display: flex;
+    color: #ADADAD;
+    justify-content: center;
+}
+.footer__containers{
+    display: flex;
+    flex-direction: row;
+}
+.footer__apps {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+.footer__copyright{
+    font-family: 'Inter';
+    font-size: 15px;
+    Font-weight:200;
+    margin: 0 1rem 0 1rem;
+}
+@media screen and (max-width: 992px) {
+.footer__apps {
+    display: flex;
+    flex-wrap:wrap;
+}
+    .footer__media a{
+        justify-content: flex-start;
+    }
+.col-md-6{
+
+}}
+@media screen and (max-width: 768px) {
+    .col-md-6{
+     flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .col-md-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .container{
+        max-width: 560px;
+    }
+
+}

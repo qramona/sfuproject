@@ -1,0 +1,168 @@
+.navigation {
+    background: #ffffff;
+}
+toggleMenu{
+    display: none;
+}
+.col-lg-1{
+    width: auto;
+    padding-right:5px ;
+}
+.navbar>.container, .navbar>.container-fluid{
+    justify-content: flex-start;
+}
+a,a:hover{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size:24px ;
+    color:black;
+    text-decoration: none;
+}
+.col-lg-10{
+    margin-top: 1rem;
+    width: auto;
+}
+.navbar-expand .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+}
+a:hover{
+    color:#00A174;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.navbar-brand-2 img{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+.burger__logo{
+    cursor: pointer;
+    display: none;
+}
+.navbar-brand-2{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    .container>.row{
+        display: contents;
+    }
+    .nav-item{
+        width: max-content;
+    }
+    .navbar>.container{
+        margin: 0;
+        display: contents;
+    }
+    .row>.col-lg-1{
+        width: 80px;
+    }
+    .row>.col-lg-10{
+        width: auto;
+        padding: 0;
+        margin: inherit;
+    }
+    ul.navbar-nav{
+        padding: 0;
+        margin: 1rem 0;
+    }
+    .navbar-nav>.col-lg-2,.col-lg-3,.col-lg-4{
+        padding-left: 0;
+       
+        margin: 1rem 0;
+    }
+    .navbar-expand{
+        justify-content: center;
+    }
+    .header__blocks{
+        margin: 0 1rem;
+    }
+
+
+
+}
+@media screen and (max-width: 768px) {
+    .container>.row{
+        display: flex;
+    }
+    header{
+        margin:0;
+    }
+
+    .navbar-brand-2{
+        margin-right: 10px;
+        display: flex;
+    }
+    .navbar-brand-2, .navbar-brand-2 img{
+        display: flex;
+    }
+    .navbar-brand-2 button{
+        border: none;
+        background: transparent;
+    }
+  
+    .nav-item{
+        display: none;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar>.container{
+        display: initial;
+    }
+    .burger__logo{
+        display: flex;
+    }
+    .navbar-links_container{
+        text-decoration: none;
+        border: none;
+    }
+
+
+    .menu{
+        overflow: auto;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 10;
+        position: fixed;
+        left: 0;
+        top: 0;
+        
+        width: 100%;
+        height: 100%;
+
+        background-color: rgba(0,0,0,0);
+
+        transform: translate(100%);
+        transition: all 0.6s ease-in-out;
+    }
+
+    .menu.active{
+        background-color: rgba(0,0,0,0.2);
+        transform: translate(0%);
+    }
+
+    .menu__burger{
+        z-index: 20;
+    }
+
+    .menu__box{ 
+    }
+    .menu__list{
+       
+       padding: 10px;
+       padding-top: 80px;
+
+       background-color: white;
+
+     
+    }
+
+
+}

@@ -1,0 +1,377 @@
+.container{
+    max-width: 1600px;
+}
+.home__preview{
+    display: flex;
+    justify-content: center;
+}
+.kras__banner{
+    background: #40B997;
+    color:#ffffff;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 3rem;
+
+}
+.kras__banner h6{
+    font-family: 'Inter';
+    font-size:48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.kras__banner p{
+    font-family: 'Inter';
+    font-size:18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 1rem 0;
+}
+.anons__mainblock{
+    display: flex;
+}
+.anons__lecture{
+    max-width: fit-content;
+}
+.anons__maintext a{
+    color:#6843E1;
+}
+.home__anons__h1{
+}
+.home__anons__h1 h1{
+    font-family: 'Inter';
+    font-weight: 900;
+    size:48px;
+    line-height:58px;
+}
+.anons__maintext h3{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size:30px;
+    line-height: 36px;
+}
+.anons__maintext p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.anons__posttext p {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size:24px;
+    line-height: 29px;
+}
+.for__students__header{
+    display: flex;
+    justify-content: space-between;
+}
+.for__students__header h1{
+
+}
+.for__students__header button{
+    border: none;
+    background: transparent;
+}
+.for__students__buttons{
+    display: flex;
+}
+.for__students__h1{
+margin: 1rem;
+}
+.for__students__h1 h1{
+    font-family:'Inter';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58.09px;
+}
+
+.for__students__columns{
+    display: flex;
+}
+.for__students__column1 h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36.31px;
+    padding: 1rem 0;
+}
+.for__students__column1 p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.for__students__column2 h6{
+    ont-family: 'Inter';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.for__students__column2 p{
+color:#6843E1;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.for__students__column2 button{
+    background: transparent;
+    border: 1px solid;
+    padding: 1rem 2rem;
+}
+.for__students__column1{
+    border-inline-end: black 1px solid;
+}
+.for__students__column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-inline-end: black 1px solid;
+    margin: 2rem 0;
+}
+.for__students__date{
+    display: flex;
+}
+.for__students__date h6, .for__students__date p{
+    font-family: 'Inter';
+    font-size:18px;
+    font-weight: 300;
+    padding: 0 1rem;
+    margin: 0;
+    color: #6843E1;
+}
+.for__students__date p{
+    display: flex;
+    align-items: center;
+    border-inline-start: black 1px solid;
+}
+.for__students__img img{
+    max-width: -webkit-fill-available;
+}
+.pre__meeting__date{
+    display: flex;
+    color:#6843E1;
+}
+.pre__meeting__date h5{
+    padding: 0 1rem;
+}
+.pre__meeting__date__h5 {
+   border-inline: black 1px solid;
+    color:#6843E1;
+}
+.pre__meeting__date__h5 h5{
+    font-family:'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.pre__meeting__date__h5 h6{
+    color:#6843E1;
+}
+.for__students__column1__texts h6{
+font-family: 'Inter';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+.for__students__column1__texts h5{
+    font-family:'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color:#6843E1;
+}
+.for__students__column1__texts p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+.for__students__column1__inline {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1200px) {
+    .kras__banner__lecture p,.kras__banner p {
+    }
+    .container{
+        max-width: 1600px;
+    }
+    .anons__posttext{
+        margin: 2rem 0;
+    }
+    .anons__maintext{
+        margin: 0;
+        padding: 0;
+    }
+
+    .for__students>.col-12{
+        max-width: 1600px;
+    }
+    .anons__mainblock{
+        display: flex;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .home__preview{
+    }
+    .home>.container{
+        display: contents;
+        max-width: 1500px;
+    }
+    .container{
+        max-width: 1600px;
+    }
+    .kras__banner{
+        padding: 0;
+    }
+
+    .anons__maintext{
+        margin: 0;
+        padding: 0;
+    }
+
+    .anons__mainblock{
+        display: flex;
+        padding: 0;
+    }
+    .for__students__columns{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+    .home__preview{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+}
+    .kras__banner{
+        padding: 0;
+        align-items: flex-start;
+        padding: 0 6rem;
+    }
+    .kras__banner__lecture img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    .kras__banner__lecture{
+        padding: 0;
+    }
+    .home__anons>.col-12{
+        padding: 0;
+    }
+    .home__preview{
+
+    }
+    .home__anons{
+
+    }
+    .home__anons__h3{
+
+    }
+    .anons__mainblock{
+    padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .anons__lecture{
+        display: flex;
+    }
+    .anons__lecture img{
+        display: flex;
+        width: 800px;
+    }
+    .anons__maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1rem;
+    }
+    .anons__posttext{
+        margin: 2rem 0;
+    }
+    .for__students__columns{
+        display: flex;
+        flex-direction: column;
+    }
+    .for__students__columns {
+        border-top: black 1px solid;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home__preview{
+        display: flex;
+        flex-direction: column;
+    }
+    .kras__banner__lecture,.kras__banner{
+        max-width: 100%;
+    }
+    .kras__banner{
+
+    }
+    .home__anons>.col-12{
+        padding: 0;
+    }
+    .anons__mainblock{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .anons__lecture{
+        max-width: fit-content;
+        display: contents;
+        padding: 0;
+    }
+    .anons__lecture img{
+        max-width: -webkit-fill-available;
+    }
+    ..anons__maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 1rem;
+    }
+    .anons__maintext h3{
+
+    }
+    .anons__maintext p{
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home__preview{
+    }
+    .kras__banner{
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    .kras__banner h6{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .anons__maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 1rem;
+
+    }
+    .for__students__header{
+
+    }
+    .for__students__h1{
+        margin: 1rem 0;
+    }
+    .for__students__h1 h1{
+        font-size: 30px;
+    }
+
+}
