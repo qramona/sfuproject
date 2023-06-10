@@ -10,7 +10,7 @@ import {
     Contact,
     Blog,
     Posts,
-    Post,
+    Post, Science, Events, Education,
 } from "./components";
 
 ReactDOM.render(
@@ -18,6 +18,9 @@ ReactDOM.render(
         <Navigation />
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/science" element={<Science/>} />
+            <Route path="/events" element={<Events/>} />
+            <Route path="/education" element={<Education/>} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />}>

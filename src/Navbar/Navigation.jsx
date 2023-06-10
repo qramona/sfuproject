@@ -38,7 +38,7 @@ const Navigation = () => {
                         <ul className="navbar-nav ml-auto">
                             <div className='col-lg-2'>
                                 <li className="nav-item">
-                                <NavLink className="nav-link" to="/science">
+                                <NavLink className="nav-link" to="/Science">
                                     Наука
                                     <span className="sr-only">(current)</span>
                                 </NavLink>
@@ -46,7 +46,7 @@ const Navigation = () => {
                             </div>
                             <div className='col-lg-3'>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/education">
+                                <NavLink className="nav-link" to="/Education">
                                     Образование
                                 </NavLink>
                             </li>
@@ -76,10 +76,10 @@ const Navigation = () => {
                  
                                         <div className={"menu menu__box" + (toggleMenu?" active":"")}>
                                             <div className="navbar-links_container menu__list">
-                                                <p><a href="src/Assets/Navbar#">Наука</a></p>
-                                                <p><a href="src/Assets/Navbar#">Образование</a></p>
-                                                <p><a href="src/Assets/Navbar#">Сотрудничество</a></p>
-                                                <p><a href="src/Assets/Navbar#">О центре</a></p>
+                                                <p><a href="/Science">Наука</a></p>
+                                                <p><a href="/Education">Образование</a></p>
+                                                <p><a href="#">Сотрудничество</a></p>
+                                                <p><a href="#">О центре</a></p>
                                             </div>
                                        </div>
 

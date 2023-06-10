@@ -10,6 +10,7 @@ toggleMenu{
 }
 .navbar>.container, .navbar>.container-fluid{
     justify-content: flex-start;
+    max-width: 1560px;
 }
 a,a:hover{
     font-family: 'Inter';
@@ -82,7 +83,6 @@ a:hover{
     .header__blocks{
         margin: 0 1rem;
     }
-
 
 
 }

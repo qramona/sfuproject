@@ -10,7 +10,7 @@ import forStudents3 from '../../Assets/forStudents3.png';
 function Home() {
     return (
         <div className="home">
-            <div class="container">
+            <div class="container" id="container">
                 <div className="home__preview">
                 <div className="kras__banner col-lg-6 col-md-12 col-sm-12">
                     <h6>
