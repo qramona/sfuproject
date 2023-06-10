@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/sfuproject/static/css/main.ff0fe9e3.css",
-    "main.js": "/sfuproject/static/js/main.096884e5.js",
+    "main.css": "/sfuproject/static/css/main.33db646b.css",
+    "main.js": "/sfuproject/static/js/main.8fd23f34.js",
+    "static/media/EduPost1.svg": "/sfuproject/static/media/EduPost1.e6303b3d833eee4a636c0676a6f106b7.svg",
+    "static/media/EduTitle.svg": "/sfuproject/static/media/EduTitle.0e853cfec8020dcea0c01e6b8b3d329c.svg",
     "static/media/SFULector.png": "/sfuproject/static/media/SFULector.8b8e2205e6f545a8f3da.png",
     "static/media/main_lecture.png": "/sfuproject/static/media/main_lecture.01d66f76666a6cea5167.png",
     "static/media/forStudents1.png": "/sfuproject/static/media/forStudents1.782f349d4fcd7d53cb56.png",
@@ -9,11 +11,11 @@
     "static/media/forStudents3.png": "/sfuproject/static/media/forStudents3.3fb8bad2fa620e24e7e3.png",
     "static/media/CloseLogoSFU.svg": "/sfuproject/static/media/CloseLogoSFU.589bb9058c15ad4ea4148266c813c559.svg",
     "index.html": "/sfuproject/index.html",
-    "main.ff0fe9e3.css.map": "/sfuproject/static/css/main.ff0fe9e3.css.map",
-    "main.096884e5.js.map": "/sfuproject/static/js/main.096884e5.js.map"
+    "main.33db646b.css.map": "/sfuproject/static/css/main.33db646b.css.map",
+    "main.8fd23f34.js.map": "/sfuproject/static/js/main.8fd23f34.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff0fe9e3.css",
-    "static/js/main.096884e5.js"
+    "static/css/main.33db646b.css",
+    "static/js/main.8fd23f34.js"
   ]
 }
